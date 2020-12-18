@@ -1,0 +1,46 @@
+# OS X
+.DS_Store
+
+# NPM
+node_modules
+npm-debug.log*
+
+# YARN
+yarn-error.log*
+
+# EDITOR
+*.sublime-workspace
+
+# build config
+config.local.js
+config.local.json
+
+# build
+/.build
+/build
+/dist
+/vendor
+
+# test and coverage results
+/reports
+/cypress-coverage
+/jest-coverage
+/coverage
+.nyc_output
+coverage.json
+
+# gradle
+/gradle.properties
+.gradle
+
+# zsh
+.gradletasknamecache
+
+# runtime
+log/
+.idea
+.history
+
+# cypress
+cypress/screenshots
+cypress/videos
